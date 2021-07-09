@@ -1,0 +1,63 @@
+[
+    {
+        "condition": "minecraft:alternative",
+        "terms": [
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "nbt": "{Item:{id:\"minecraft:dragon_head\"}}"
+                }
+            },
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "nbt": "{Item:{id:\"minecraft:skeleton_skull\"}}"
+                }
+            },
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "nbt": "{Item:{id:\"minecraft:wither_skeleton_skull\"}}"
+                }
+            },
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "nbt": "{Item:{id:\"minecraft:zombie_head\"}}"
+                }
+            },
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "nbt": "{Item:{id:\"minecraft:creeper_head\"}}"
+                }
+            },
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "nbt": "{Item:{id:\"minecraft:player_head\"}}"
+                }
+            }
+        ]
+    },
+    {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+            "type": "minecraft:item",
+            "stepping_on": {
+                "block": {
+                    "blocks": [
+                        "minecraft:anvil"
+                    ]
+                }
+            }
+        }
+    }
+]

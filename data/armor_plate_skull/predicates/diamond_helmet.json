@@ -1,0 +1,24 @@
+[
+    {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+            "type": "minecraft:item",
+            "nbt": "{Item:{id:\"minecraft:diamond_helmet\"}}"
+        }
+    },
+    {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+            "type": "minecraft:item",
+            "stepping_on": {
+                "block": {
+                    "blocks": [
+                        "minecraft:anvil"
+                    ]
+                }
+            }
+        }
+    }
+]
