@@ -54,6 +54,8 @@
             "stepping_on": {
                 "block": {
                     "blocks": [
+                        "minecraft:damaged_anvil",
+                        "minecraft:chipped_anvil",
                         "minecraft:anvil"
                     ]
                 }
