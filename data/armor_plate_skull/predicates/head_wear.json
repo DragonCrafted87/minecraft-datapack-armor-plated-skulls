@@ -43,6 +43,13 @@
                 "predicate": {
                     "nbt": "{Item:{id:\"minecraft:player_head\"}}"
                 }
+            },
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "nbt": "{Item:{id:\"minecraft:carved_pumpkin\"}}"
+                }
             }
         ]
     },
@@ -50,7 +57,6 @@
         "condition": "minecraft:entity_properties",
         "entity": "this",
         "predicate": {
-            "type": "minecraft:item",
             "stepping_on": {
                 "block": {
                     "blocks": [
@@ -59,7 +65,8 @@
                         "minecraft:anvil"
                     ]
                 }
-            }
+            },
+            "type": "minecraft:item"
         }
     }
 ]
